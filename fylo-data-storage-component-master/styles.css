@@ -1,0 +1,51 @@
+body{
+  background-color: hsl(229, 57%, 11%);
+  background-image: url("images/bg-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main{
+  width: 80%;
+  margin:20% auto;
+}
+.c-1{
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 10px;
+  border-top-right-radius: 100px;
+  padding: 40px;
+  margin-bottom: 20px;
+}
+.icon{
+  margin-top: 30px;
+  display: flex;
+}
+.ic{
+  height:50px;
+  width: 50px;
+  background-color: hsl(229, 57%, 11%);
+  text-align: center;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.ic1{
+  margin-top: 10px;
+}
+.ic2{
+  margin-top: 15px;
+}
+.ic3{
+  margin-top: 18px;
+}
+.c-2{
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 10px;
+  text-align:center;
+  padding: 30px;
+}
+.line{
+  height: 20px;
+  border-radius:20px;
+  width: 80%;
+  margin: auto;
+ background-image: linear-gradient(to right, hsl(6, 100%, 80%) , hsl(335, 100%, 65%));
+}
