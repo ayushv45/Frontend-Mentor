@@ -1,0 +1,92 @@
+body{
+  background-color: hsl(210, 46%, 95%);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 13px;
+  text-align: left;
+}
+ul{
+  margin: 20px auto;
+  list-style-type: none;
+}
+.grid-container{
+  display: grid;
+  width: 60%;
+  margin:30px auto;
+}
+.grid-1{
+  background-color:hsl(263, 55%, 52%);
+  background-image: url("images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: top right 5%;
+}
+.grid-2{
+  background-color:hsl(217, 19%, 35%);
+}
+.grid-3{
+  background-color:hsl(0, 0%, 100%);
+}
+.grid-4{
+  background-color:hsl(219, 29%, 14%);
+}
+.grid-5{
+  background-color:hsl(0, 0%, 100%);
+}
+.grid-1,.grid-2,.grid-3,.grid-4,.grid-5{
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.image{
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin: 20px 10px auto 40px;
+}
+.img-b{
+  border:2px solid #A775F1;
+}
+.name-b,.ver-b,.para-b,.last-para-b{
+  color:hsl(210, 46%, 95%);
+}
+.name-g,.ver-g,.para-g,.last-para-g{
+  color:hsl(219, 29%, 14%);
+}
+.ver-b,.ver-g{
+  opacity: 0.5;
+}
+.para-b,.para-g{
+  font-size: 15px;
+  font-weight: 600;
+  margin: 20px 40px;
+}
+.last-para-b,.last-para-g{
+  margin: 20px 40px;
+  opacity: 0.7;
+}
+
+@media (min-width:1028px) {
+.grid-container{
+  width: 70%;
+  display: grid;
+  justify-content: center;
+  margin:80px auto;
+  grid-template-areas: 'ar1 ar1 ar1 ar2 ar5' 'ar3 ar4 ar4 ar4 ar5';
+  grid-column-gap: 20px;
+}
+.grid-1{
+  grid-area: ar1;
+background-position: top right 15%;
+}
+.grid-2{
+grid-area: ar2;
+}
+.grid-3{
+grid-area: ar3 ;
+}
+.grid-4{
+grid-area: ar4;
+}
+.grid-5{
+grid-area: ar5;
+}
+}
